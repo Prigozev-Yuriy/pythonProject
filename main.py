@@ -38,13 +38,32 @@ if __name__ == '__main__':
         return dic3
 
 
-    dic1 = {1: "hello", 2: "world"}
+    dic1 = {1: "hello", 2: "world"}q
     dic2 = {3: "Python", 4: "Programming"}
     merge(dic1, dic2)  # {1: 'hello', 2: 'world', 3: 'Python', 4: 'Programming'}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
 =======
 >>>>>>> parent of 3829c82 (time commit)
+=======
+    import time
+
+    start_time = time.time()
+
+
+    def fun():
+        a = 2
+        b = 3
+        c = a + b
+
+
+    end_time = time.time()
+    fun()
+    timetaken = end_time - start_time
+    print("Your program takes: ", timetaken)  # 0.0345
+
+>>>>>>> parent of 126e379 (time/revers commit)
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

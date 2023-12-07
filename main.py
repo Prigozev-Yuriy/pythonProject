@@ -79,3 +79,10 @@ check_duplicate([1,2,3,4,9]) # False
 
 
 
+def Filtering(lst):
+    return list(filter(None,lst))
+lst=[None,1,3,0,"",5,7]
+Filtering(lst) #[1, 3, 5, 7]
+
+
+

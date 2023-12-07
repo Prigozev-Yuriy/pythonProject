@@ -22,4 +22,13 @@ if __name__ == '__main__':
     get_vowels("sky")  # []
     get_vowels("football")  # [o, o, a]
 
+
+    def capitalize(String):
+        return String.title()
+
+
+    capitalize("shop")  # [Shop]
+    capitalize("python programming")  # [Python Programming]
+    capitalize("how are you!")  # [How Are You!]
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

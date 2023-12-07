@@ -42,4 +42,6 @@ if __name__ == '__main__':
     dic2 = {3: "Python", 4: "Programming"}
     merge(dic1, dic2)  # {1: 'hello', 2: 'world', 3: 'Python', 4: 'Programming'}
 
+
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

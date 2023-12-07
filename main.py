@@ -101,3 +101,10 @@ var3=True
 print(sys.getsizeof(var1)) #55
 print(sys.getsizeof(var2)) #28
 print(sys.getsizeof(var3)) #28
+
+
+
+from collections import Counter
+def anagrams(str1, str2):
+    return Counter(str1) == Counter(str2)
+anagrams("abc1", "1bac") # True
